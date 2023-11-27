@@ -1,0 +1,606 @@
+TRUELOGIN MESSAGE: HTTP/1.1 200 OK
+Server: GlassFish Server Open Source Edition  4.1
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: JSP/2.3
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Language: en-US
+Content-Type: text/html;charset=ISO-8859-1
+Vary: Accept-Encoding
+X-Akamai-Transformed: 9 1384 0 pmb=mTOE,3mRUM,1
+Content-Encoding: gzip
+Date: Sun, 05 Mar 2023 14:32:50 GMT
+Content-Length: 3340
+Connection: keep-alive
+Set-Cookie: ROUTEID=.r1; path=/
+Server-Timing: edge; dur=85
+Server-Timing: origin; dur=45
+Server-Timing: cdn-cache; desc=MISS
+Set-Cookie: _abck=04CFBDF953F629AB79666D74E6CEDA91~-1~YAAQDWYF0uMI4oiGAQAAeocwsglXChKt7uWu7kDaAvkAThaK9Nx2WKnE1a61s+V4qjs3JyZhdohmAODvHc5IfVG5YPRbdnxpEfHmRsr4KSarbV8MGreN+kUaYAI8KEF8wGErZDfg19HTDz1UlMZ/Nf96DHHWrJt1zbGmvWRn8JEjlviCO9p+M9FY6g/l9UIarG1EbGxDwcDsOMjQy16EMmflF+FgZFTmvwy98QuKRe5OghdJDTBGQXUibZ9LrKomvG99MWmJVQSgFZK+hcxYsEFkROAxRZ9GjvJNe1EfYfoFfN8igiPcu1zyymBTeB4x5rswLE+hbm6rzchBSX8CcwZlO4jOdIr4dbCfSxH8QqLd1mUEfEFV7cMg/W9i~-1~-1~1678030253; Domain=.bdo.com.ph; Path=/; Expires=Mon, 04 Mar 2024 14:32:50 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_mi=714E17893AD71B03C91703AE52639285~YAAQDWYF0uQI4oiGAQAAeocwshPzGacm545SzoNFMuv13XFUAMnoxjs5Ckt81B0AF3K3vw05pSG4IK5IfaeJzxXOXgkCvtY5TvY+6hr3XltmokgZsxleC2ZJXt+z/bNqkUffTP/+ApWjnvbaESpZwNLH6Jax+2elCtKgTz5l+gyw4GVHKMHlzhhGnaKkJdcStZa8yc3GTNnEbKmTiTHYafTqP1AdTf65Aovny7SOGn1h+SU7WPVbLp4JVMvGmKmR6T1WL05wEEOoYABspA1cAC6OmOhvxLaCoRzpbCm2WOrACGx79Hg8GU/kGdUMzpxPIz7uny8okGAjnT3hNaq4DMELMtj9SYq5lhyUncqfthI=~1; Domain=.login.bdo.com.ph; Path=/; Expires=Sun, 05 Mar 2023 14:32:50 GMT; Max-Age=0; Secure
+Set-Cookie: bm_sz=CBF45AD6DDA010BDFA39F00C4AA195DC~YAAQDWYF0uUI4oiGAQAAeocwshNo/8AJfJDTnq31PlfyKx3kxtBF8nDIkC0J8cLqoqhxeQRAphsAGxxI9PrBESXdOsUBE144JbbTkGihPsUZ89Nf8CwMzkXRlwVZRS+EN/F/Sin3tes+In2rlb5u9zWnl1/Ooq0GATSi/U99sUQ7pI/RHEak33R+ktuJsOsSWsE8Q1IGyB0nHaSGeiulOjQUwyZu4R2fQOvRGy+/O6N/0ckBUZG9fuBEAJ7H1AW9KKyc14URFilrs3OiATTqWlDj0FOxgxpgWm5D/UEH2JhyTEc=~4534836~3752758; Domain=.bdo.com.ph; Path=/; Expires=Sun, 05 Mar 2023 18:32:50 GMT; Max-Age=14400
+Server-Timing: ak_p; desc="466118_3523569165_355737134_12947_5213_96_-";dur=1
+
+
+
+
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>BDO Online Generic Login</title>
+    <link href="/onlinelogin/resources/css/bootstrap.css" rel="stylesheet">
+    <link href="/onlinelogin/resources/css/BootSideMenu.css" rel="stylesheet">
+    <link href="/onlinelogin/resources/css/datepicker.css" rel="stylesheet">
+    <link href="/onlinelogin/resources/css/style.css" rel="stylesheet">
+    <link href="/onlinelogin/resources/css/style-media.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <link rel="stylesheet" type="text/css" href="/onlinelogin/resources/css/style-ie9.css" />
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" type="text/css" href="/onlinelogin/resources/css/style-ie8.css" />
+    <![endif]-->
+  
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="AJXVB-TKVH3-AND8K-BHQXC-ZA62X",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"AJXVB-TKVH3-AND8K-BHQXC-ZA62X",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="odfpanyxfzszmzaevaja-f-98d2d3f29-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"957141","ak.ai":parseInt("613366",10),"ak.ol":"0","ak.cr":95,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"15341e2e","ak.r":7802,"ak.a2":e,"ak.m":"b","ak.n":"essl","ak.bpcip":"112.202.240.0","ak.cport":56008,"ak.gh":"210.5.102.13","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1678026770","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==cxbTXIPcP3jY1mzCgijMHrlZrU5ZSOknzSfIK7KGcpIQYLvxFhUx/UYL/I/Vd+d4BOxaJlCBQklXc1wai9w0b1wKkMLMJ9zwf8THJSqGjp/zcr36O5DgTzOi7WvHkB6LHqmIFnHVxwSAjpjPQMEkCgvNvFsm7Ss1szwxJHPrXSyXYtnYwC/pBNVFWSo5YtzT2BJTwyGPCxoagiv6qLgr8ufqEeEirrPXQW+TFNXJBMrEtzoUxCixXpBEd5k3UwTehNJc46pTunCXdJ09WrWXBPZk9e36HU8f+/yMkR3j+gGKClpZh42WJRyI6OVsd8P/XRX1nig/KMCn+TOqqTrbTSh02fbEw+Jb5a8ENajyebX+ev7TQx0dJumpvokAJ/sKJfPbJ9kMH+qhQiJPeMlsakvQ5zuCi+T+OHnX9cuw2iU=","ak.pv":"6","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script><script >bazadebezolkohpepadr="1216135347"</script><script type="text/javascript" src="https://www.login.bdo.com.ph/akam/13/487cc1d8"  defer></script></head>
+  
+  <body>
+    <div id="all-loading-page" class="all-loading-page hide" ></div>
+    <div class="container container-login" id='main-page-container'>
+      <div class="row row-content ">
+        <div class="col-xs-12 login-content">
+          
+
+<div class="div-logo">
+  
+  
+    
+      <img id="logo-page1" src="https://www.bdo.com.ph/sites/default/files/images/generic_login/securities_logo.png"/>
+    
+    
+  
+</div>
+          
+
+<div class="div-mess">
+  <div class="col-xs-12 mess-list w-bg">
+    
+    &nbsp;
+    
+  </div>
+  
+  
+    <div class="col-xs-12 mess-list"><p>Log in using your BDO Online Banking Username and Password</p><p> If you don't have a BDO Online Banking account,<a href="https://www.mybdo.com.ph/fo/ribtermsandconditions"> click here</a></p></div>
+  
+  
+</div>
+          
+
+
+
+<div class="login-form" onKeyUp="return checkSubmit(event)" >
+  <form id="loginForm" name="loginForm" action="/onlinelogin/validateLogin.do" method="POST">
+
+    <input type="hidden" id="app_code" name="app_code" value="bsc_ipms" />
+    <input type="hidden" id="refNo" name="refNo" value="" />
+    
+    <input type="hidden" id="backURL" name="backURL" value="https://www.bdo.com.ph/securities/home" />
+
+    <div class="field-text field-user">
+
+      <label for="j_username"  >User ID</label>
+      <input type='text' autocomplete='off' id='j_username' name='j_username' class="input-username" maxlength="30" />
+
+    </div>
+    <div class="field-text field-password">
+
+      <label for="j_password"  >Password</label>
+      <input type='password' autocomplete='off' id='j_password' name='j_password' class="input-password" maxlength="20" />
+
+    </div>
+    
+    <div id="error" class="error-mess error" ><span onclick="focusToField('username','')" > Invalid User ID or Password. </span> <br /></div><script src="/onlinelogin/resources/js/util/util.js"></script>
+    
+    <div class="field-submit">
+      <div class="col-xs-6 "><input id="btnCancel" type="button" value="Cancel" class="input-login"></div>
+      
+      
+      
+        <div class="col-xs-6 "><input id="btnLogin" type="button" value="Login" class="input-login"></div>
+      
+    </div>
+  </form>
+
+  
+
+</div>
+
+
+  <div class="div-mess">
+    <div class="col-xs-12 mess-list-footer"></div>
+  </div>
+
+
+<script>removeClass('j_username','error');removeClass('j_password','error');addClass('username','error');</script>
+<script src="/onlinelogin/resources/js/login.js"></script>
+
+        </div>
+        
+
+
+
+  <div class="col-xs-12 login-footer">
+    <div class="footer-text"></div>
+  </div>
+
+
+<script>
+  var noAlert = true;
+  setInterval(gotoHome, 350000);
+  
+  function gotoHome() {
+    if ( noAlert ) {
+      noAlert = false;
+      alert("The page will be redirected due to inactivity.");
+      
+      window.location.assign( encodeURI( "https://www.bdo.com.ph/securities/home" ) );
+    }
+  }
+</script>
+      </div>
+    </div>
+  <noscript><img src="https://www.login.bdo.com.ph/akam/13/pixel_487cc1d8?a=dD1lZjI3ZjY1ODY3N2VlMTMxZTM2YmM0MjJlOGRjNTI4MjhiNzI2NDFlJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript><script type="text/javascript"  src="/-Bnot3/Q_r7RD/D97w/8Ujwr8/An/XOwaXDhYm1m3iY/UExGPFZyWg8/HV/QmUj5OYGY"></script></body>
+</html>
+ 
+
+
+TRUELOGIN MESSAGE: HTTP/1.1 302 Moved Temporarily
+Server: GlassFish Server Open Source Edition  4.1
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: Servlet/3.1 JSP/2.3 (GlassFish Server Open Source Edition  4.1  Java/Red Hat, Inc./1.8)
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Location: https://www.login.bdo.com.ph/onlinelogin/displayOTP.do?app_code=bsc_ipms
+Content-Language: en-US
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 222
+Date: Sun, 05 Mar 2023 14:33:13 GMT
+Connection: keep-alive
+Set-Cookie: ROUTEID=.r1; path=/
+Server-Timing: edge; dur=260
+Server-Timing: origin; dur=103
+Server-Timing: cdn-cache; desc=MISS
+Set-Cookie: _abck=C51FB7718B3A205E2D79BAF5A1A61595~-1~YAAQDWYF0pYM4oiGAQAABeMwsgktkyJwJfpBl30qS10L3orxH7NP7VpDWx5pc7rLdn0g2p5VGeGSrPJY2lsO04w+2hYxAj8dhsx9QU+jCoOyINbaXzwM9z3tdvSM8mj3rc/OIYLSw5EXJotsydeVImzaLku7xxtqDWt+Tn8kyYuif64sdFjpssogSzzixO479vk3n9J7IBY/oDEhgty2/u24/vmWIQfTgH7NTBhj17CrhBCINK90ZOD3AGIEoL4T5tWHZUEEpYgLMDFLhSGaCeYTjtLKIRCMjNKkQ0Mdf5yQdWP/g1MfxR4d0pforMdjiB1LxU2z+xCuvTFuCXR477G0xgmHcPATiiPzZ9JLSaIna5y5u5hqe+alCF7p~-1~-1~1678030387; Domain=.bdo.com.ph; Path=/; Expires=Mon, 04 Mar 2024 14:33:13 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=6AB1B36FA8601A147009E7C9468D911D~YAAQDWYF0pcM4oiGAQAABeMwshPDlr3p4isghxc5hm6DOVzlqOlAEIatjaC9nga5qUoMQJ1PLCTsxcf35WSNhrFM/MKJ/O9f2+yVvfj9EWAmn8qFe81Cs07H6W0Eycj6k7qo7IJ6fR+sBF4BxBuWUyGu3S68+oc64gsD6JE0AnYUw8SiI2riHmnWmYg6Fw5+U3z+02UGdHHYX3T+bz8DO4yl+0MOTxSHFRztaxUb6jNm38EEYvuKnOEDh6cCT/p/UfPCtR/eAcXqxOWkmYJ8h7bUZJMpufFs1TdQhKIjy2MrRxM=~4470834~3486786; Domain=.bdo.com.ph; Path=/; Expires=Sun, 05 Mar 2023 18:33:13 GMT; Max-Age=14400
+Server-Timing: ak_p; desc="466118_3523569165_355756379_36252_4539_69_-";dur=1
+
+<html>
+<head><title>Document moved</title></head>
+<body><h1>Document moved</h1>
+This document has moved <a href="https://www.login.bdo.com.ph/onlinelogin/displayOTP.do?app_code=bsc_ipms">here</a>.<p>
+</body>
+</html>
+ 
+
+
+TRUELOGIN MESSAGE: HTTP/1.1 200 OK
+Server: GlassFish Server Open Source Edition  4.1
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: JSP/2.3
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Language: en-US
+Content-Type: text/html;charset=ISO-8859-1
+Vary: Accept-Encoding
+X-Akamai-Transformed: 9 1384 0 pmb=mTOE,3mRUM,1
+Content-Encoding: gzip
+Date: Sun, 05 Mar 2023 14:35:08 GMT
+Content-Length: 3339
+Connection: keep-alive
+Set-Cookie: ROUTEID=.r1; path=/
+Server-Timing: edge; dur=76
+Server-Timing: origin; dur=94
+Server-Timing: cdn-cache; desc=MISS
+Set-Cookie: _abck=8B29FFDCBDDE44C66548A716B5FC725D~-1~YAAQfGtHOlzoQ6GGAQAA1aEysgkrOFrDkTNhyqvZzouhlMFJdLtVE4pADxYSjzonWEEBZjaG5st7lJP6TdXAx9SQ0oien9ddfv5FgYf1Ek2XCtu+KG9Kk40zFG+m/a1IdCAyZFHAGDg0OGHBhw9KtdO5A7abk8+BLtqFzmqpjKF+xe+hCwdHk8mVN9CsC/eCT7xIwFsvHg+DLh6uYJEKML4Z78dK3woT4Kp84mWWHfAZibYJO4QVG6cKaoExeiwAY9VRqRfrhpusuKrPEbnYEGRD0H20qoMsi16jsQNU6GNBPT6DE6Br6giRWLxkMG2A9ZxwY/9QZv3+cL8fiup5mRcrN88ar6LOCkLAe3Hs9Fimam059E4YB49qRl/y~-1~-1~1678030403; Domain=.bdo.com.ph; Path=/; Expires=Mon, 04 Mar 2024 14:35:08 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_mi=9A86F8C98F654F0414647271D3D13657~YAAQfGtHOl3oQ6GGAQAA1aEyshO41oGymQNRpDNMO+b3kn/VyCaiNiJGbwaSFJ1k8Nr1j8MLl01kENXx0c90o/buv3s8cOJ+3RzSqhslqZgxOpCyQitMn1AhHORpmT9Ga6eA1gToiPEUbMm0ZflLSEnrYpiH7Mku0F/cSwpEYVWnRgY2s7DImrRlRwDwtIctLghvsigisrjlzZOpQNs5SokqxQ3mA15oSSlZ1Sbfj8VcMZCsCCfOFaHErC37eB77jZio+X9yYJhmCCXYS8Fn8etz9Q/Ua+1p58EKSl5V009pPoXWUxtOnukUBguZbkX0Xyn1/aJFC40bwMKIAMeev0q/dz79ak554pZF8gwLp3Q=~1; Domain=.login.bdo.com.ph; Path=/; Expires=Sun, 05 Mar 2023 14:35:08 GMT; Max-Age=0; Secure
+Set-Cookie: bm_sz=28F5108442DC1352D491FBFE9AEC6EE4~YAAQfGtHOl7oQ6GGAQAA1aEyshPDcYaxBsbxybw/Y/3PivPZOeUMBtPCobvNMuBIZMKs2jA1uou9ZwrRyo81vpX6Jl+PXuCXEPgsIBALMI5trBlqDNF9dxEVAatO7b3SCy1S1ik3xtsDP4TKy7ZrZDxcKfMZeOJwM5JIV5nI5NSRwh7a/i34utHKimRGcSEEtxfVhpjMmEiCVvlkfniP9FC8ERODmNVHHywBQvv3qy20DbLoH+kprFj8pkn0mQa8HHROxZPD2RIgD8U/Hmcs8xWW8jzXe4GHRXtuvg16rFGJCZA=~4342853~4273989; Domain=.bdo.com.ph; Path=/; Expires=Sun, 05 Mar 2023 18:35:07 GMT; Max-Age=14399
+Server-Timing: ak_p; desc="466118_977759100_124480122_16961_4683_67_-";dur=1
+
+
+
+
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>BDO Online Generic Login</title>
+    <link href="/onlinelogin/resources/css/bootstrap.css" rel="stylesheet">
+    <link href="/onlinelogin/resources/css/BootSideMenu.css" rel="stylesheet">
+    <link href="/onlinelogin/resources/css/datepicker.css" rel="stylesheet">
+    <link href="/onlinelogin/resources/css/style.css" rel="stylesheet">
+    <link href="/onlinelogin/resources/css/style-media.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <link rel="stylesheet" type="text/css" href="/onlinelogin/resources/css/style-ie9.css" />
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" type="text/css" href="/onlinelogin/resources/css/style-ie8.css" />
+    <![endif]-->
+  
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="AJXVB-TKVH3-AND8K-BHQXC-ZA62X",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"AJXVB-TKVH3-AND8K-BHQXC-ZA62X",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="odfpanyxfzszmzaevcnq-f-fe713cc10-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"957141","ak.ai":parseInt("613366",10),"ak.ol":"0","ak.cr":64,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"76b6a7a","ak.r":7802,"ak.a2":e,"ak.m":"b","ak.n":"essl","ak.bpcip":"112.202.240.0","ak.cport":56072,"ak.gh":"58.71.107.124","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1678026907","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==Mjls4NI5CEqEf33Iaon35K1qqqztXS9oHh2Wr8DNPa6G/iccRDasZBEazj80a+fxCKUZZwasKoCr6kntm880GaK1V/KTT8mfmh4Ippk4USjPqqKmE59c5CHQZhF2fx2O+tiu/FaqknT8cy+SpdJMA7JQmo4+V7B1eIAF3M8Lp2mC4rEMWeRXqS08BSf7KQAnIwRF9vyvuGOmf2TBGNL7ZLSEn55WDRPz/1Dn+8SqZWNW0rMAQfckeIoQFz8WKEZt1LBBN4afz7A4fp06XCROaTJ455ZHjd4cr7bB6q2nFeZwmNV1hlv55Wud2VhqTCNWs1O4k2Q/bs7glX3YCFGO4+PHlrOqn89JnVEXlwuqM7wwrR+zOK/Jxbr6XqEc4dNKAp9rdNVSqeVEhbW4sFef/cykgTYq9puoUlYW/NcMk+g=","ak.pv":"6","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script><script >bazadebezolkohpepadr="1216135347"</script><script type="text/javascript" src="https://www.login.bdo.com.ph/akam/13/487cc1d8"  defer></script></head>
+  
+  <body>
+    <div id="all-loading-page" class="all-loading-page hide" ></div>
+    <div class="container container-login" id='main-page-container'>
+      <div class="row row-content ">
+        <div class="col-xs-12 login-content">
+          
+
+<div class="div-logo">
+  
+  
+    
+      <img id="logo-page1" src="https://www.bdo.com.ph/sites/default/files/images/generic_login/securities_logo.png"/>
+    
+    
+  
+</div>
+          
+
+<div class="div-mess">
+  <div class="col-xs-12 mess-list w-bg">
+    
+    &nbsp;
+    
+  </div>
+  
+  
+    <div class="col-xs-12 mess-list"><p>Log in using your BDO Online Banking Username and Password</p><p> If you don't have a BDO Online Banking account,<a href="https://www.mybdo.com.ph/fo/ribtermsandconditions"> click here</a></p></div>
+  
+  
+</div>
+          
+
+
+
+<div class="login-form" onKeyUp="return checkSubmit(event)" >
+  <form id="loginForm" name="loginForm" action="/onlinelogin/validateLogin.do" method="POST">
+
+    <input type="hidden" id="app_code" name="app_code" value="bsc_ipms" />
+    <input type="hidden" id="refNo" name="refNo" value="" />
+    
+    <input type="hidden" id="backURL" name="backURL" value="https://www.bdo.com.ph/securities/home" />
+
+    <div class="field-text field-user">
+
+      <label for="j_username"  >User ID</label>
+      <input type='text' autocomplete='off' id='j_username' name='j_username' class="input-username" maxlength="30" />
+
+    </div>
+    <div class="field-text field-password">
+
+      <label for="j_password"  >Password</label>
+      <input type='password' autocomplete='off' id='j_password' name='j_password' class="input-password" maxlength="20" />
+
+    </div>
+    
+    <div id="error" class="error-mess error" ><span onclick="focusToField('username','')" > Invalid User ID or Password. </span> <br /></div><script src="/onlinelogin/resources/js/util/util.js"></script>
+    
+    <div class="field-submit">
+      <div class="col-xs-6 "><input id="btnCancel" type="button" value="Cancel" class="input-login"></div>
+      
+      
+      
+        <div class="col-xs-6 "><input id="btnLogin" type="button" value="Login" class="input-login"></div>
+      
+    </div>
+  </form>
+
+  
+
+</div>
+
+
+  <div class="div-mess">
+    <div class="col-xs-12 mess-list-footer"></div>
+  </div>
+
+
+<script>removeClass('j_username','error');removeClass('j_password','error');addClass('username','error');</script>
+<script src="/onlinelogin/resources/js/login.js"></script>
+
+        </div>
+        
+
+
+
+  <div class="col-xs-12 login-footer">
+    <div class="footer-text"></div>
+  </div>
+
+
+<script>
+  var noAlert = true;
+  setInterval(gotoHome, 350000);
+  
+  function gotoHome() {
+    if ( noAlert ) {
+      noAlert = false;
+      alert("The page will be redirected due to inactivity.");
+      
+      window.location.assign( encodeURI( "https://www.bdo.com.ph/securities/home" ) );
+    }
+  }
+</script>
+      </div>
+    </div>
+  <noscript><img src="https://www.login.bdo.com.ph/akam/13/pixel_487cc1d8?a=dD1lZjI3ZjY1ODY3N2VlMTMxZTM2YmM0MjJlOGRjNTI4MjhiNzI2NDFlJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript><script type="text/javascript"  src="/-Bnot3/Q_r7RD/D97w/8Ujwr8/An/XOwaXDhYm1m3iY/UExGPFZyWg8/HV/QmUj5OYGY"></script></body>
+</html>
+ 
+
+
+TRUELOGIN MESSAGE: HTTP/1.1 302 Moved Temporarily
+Server: GlassFish Server Open Source Edition  4.1
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: Servlet/3.1 JSP/2.3 (GlassFish Server Open Source Edition  4.1  Java/Red Hat, Inc./1.8)
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Location: https://www.login.bdo.com.ph/onlinelogin/displayOTP.do?app_code=bsc_ipms
+Content-Language: en-US
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 222
+Date: Sun, 05 Mar 2023 14:35:29 GMT
+Connection: keep-alive
+Set-Cookie: ROUTEID=.r1; path=/
+Server-Timing: edge; dur=94
+Server-Timing: origin; dur=79
+Server-Timing: cdn-cache; desc=MISS
+Set-Cookie: _abck=5CFD98FB1277BE5E76EAEDA7DF64DE82~-1~YAAQfGtHOvbqQ6GGAQAAjPQysgk81zQbEiViD0klxUgpE88CjfBplkV+VaZxIKx3+ivK/Os8sXDrwfOnC2csFTsUsHnekedGMVsdSbDtnXzqF8rqR8yh4mH79JxrFsygZXVn/r6V2j+h6fbI+sy/KIo4Q9hnNBCzj2o5gtYOw3a8m9La8QmOxIyOQN38yj/VZmucOE/YlFlk96PhYcKpflu1Zi1uMi/LJg1tLH6c7NtBgx40U6dqG3jN/E8BSDvJC4yN1p+XYPBIdYWVApMOa8yh30JBZOk4r9K+VfpeuB9xDaEEcMMDR6n8fMKfdbq03o4UNSFuxib9ny4n2ZDNgpCn2zv+yqiA8Ztx5UEVs6afEyTd/DUKasmS6M6U~-1~-1~1678030431; Domain=.bdo.com.ph; Path=/; Expires=Mon, 04 Mar 2024 14:35:29 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=59ECE744E964C9367D848F38065D8EA8~YAAQfGtHOvfqQ6GGAQAAjPQyshOy9I2u6dz3p8u47VLGErG0KF70cpOQiS4TKkx3zk3kabetPP2FcySJN8IAky71RUJddLDrZEuADTZugFPgeFeL3Nx3IVd6Ulsr/7djdzDsNpNg85c5aG1Y2G8JjUBKT208yUZZE9W6Egyrpym1IBm4wDB00tscM/BKkHnTwWswxDW98wxuaCvxZopsZ/y0HfUA25oEWrdzqq1eFxGSl8cG9YYafztvvk0YP9QsrZ73rVI3tqxigUbCTVFxqmW2bE5rdTn39Ebzdig7GPyy3Zs=~4473908~3294259; Domain=.bdo.com.ph; Path=/; Expires=Sun, 05 Mar 2023 18:35:29 GMT; Max-Age=14400
+Server-Timing: ak_p; desc="466118_977759100_124494153_17303_4680_45_-";dur=1
+
+<html>
+<head><title>Document moved</title></head>
+<body><h1>Document moved</h1>
+This document has moved <a href="https://www.login.bdo.com.ph/onlinelogin/displayOTP.do?app_code=bsc_ipms">here</a>.<p>
+</body>
+</html>
+ 
+
+
+TRUELOGIN MESSAGE: HTTP/1.1 401 Unauthorized
+Server: GlassFish Server Open Source Edition  4.1
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: JSP/2.3
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 2244
+Date: Fri, 14 Apr 2023 08:48:12 GMT
+Connection: close
+Set-Cookie: JSESSIONID=ef360edbc64c320a070fe8399b73; Path=/onlinelogin; Secure; HttpOnly
+Set-Cookie: ROUTEID=.r1; path=/
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=1196
+Server-Timing: origin; dur=794
+Set-Cookie: _abck=6ADF0D3B817BE66BA1685975B186EA7A~-1~YAAQh0A2F+/8xXyHAQAAm2PzfgnW0vA/ZP7lgWbG8x5D+gH5S3+mua1aoCYVX14z7GIQ1NTvcOuIER+IC/4qUJfYJO3dyseWAm7NmWgSrtxj8jhVAd1ckZ2uszKPPOn1K7KbFq4oUWFS3dUp7olnuthtHGJZQQjWeI4+rN/22qRKrGBWD+mByHC0YJyDaEI/GTAGLKe/lrBVeEX92RWxV9DYoCJgX5OHgYRGbtuiR5TdV5m/oxcc9iWpE24tXoVULMkteuHcZpgPgxIHWW4vGLEUWEP3U0sZDtLPdNDfB/LEevzaOzEFY2ffLXpQKzBpMQzkXmJrAHDqULlYhc3fwzw0VQNFhUxdsv32Z11MMvdt3PNqmWeRjdrYTLDm~-1~-1~1681465591; Domain=.bdo.com.ph; Path=/; Expires=Sat, 13 Apr 2024 08:48:12 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_mi=C6404E35D34588C7BAADB5715421404D~YAAQh0A2F/D8xXyHAQAAm2PzfhOeek217gulcRNdhKVVARaPzvDjGfgMkoCK0eOYIYdtKXrs37sh/HtwUMqZX2aG1uCcuVqW0/mTAFlPvAJU+ETFPS7p+r+7VIJ/bhtH4lFFPWcWDKtjXmb4Jwb4yPoXXAeKLo2rUcHrlYNFPoWBqQ2as388FX1A5gwy0pwYWpJq6XTsIMaBMCaUcyZ5MS5zRDktPUs1gXQ7qpj0ZqhNuFrkxxYTpog2JETtoU1SHKYbSeTZDcRG5irdc+05omaV61fVLeenKc0WTThbFptDbJvhGzJQeArrBpX1olZEPCdB4veuwh8lxjAx5kfsDAD5V+YyfOpPAltQ~1; Domain=.login.bdo.com.ph; Path=/; Expires=Fri, 14 Apr 2023 08:48:12 GMT; Max-Age=0; Secure
+Set-Cookie: bm_sz=811B5C5FA1C039057C14D03EB2FAB884~YAAQh0A2F/H8xXyHAQAAm2PzfhNd5uFdA+DHBi/HNxQYjLFqG8rM+8FXXJq80BBS0FmluhRx7gDtemy1a9zJIDH6mESM6nhyAsrcBaJbU2uOKvpL+El4ShiDmPlWmGKetr1rlno2/U3fvVJTbYH63XNwjf+AtY2M27uOawUEUz8ljqTi34gOnN/p2mUmDi4uoideXHo2D+YEjgl3D288GZepp+0/GQbTYXt6Eup5OwXEYM3Pd91xBEeQ28hoUBcg1YfU9d1VylwLPdSzvRrdff3Vaz/8ZzgyZ7fUvdTeTD72pR0=~4474177~3223600; Domain=.bdo.com.ph; Path=/; Expires=Fri, 14 Apr 2023 12:48:10 GMT; Max-Age=14398
+Server-Timing: ak_p; desc="467072_389431431_369218309_198696_6322_5_-";dur=1
+
+
+
+
+
+
+
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDO Online Generic Login</title>
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/bootstrap.css" rel="stylesheet">
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/BootSideMenu.css" rel="stylesheet">
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/datepicker.css" rel="stylesheet">
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/style.css" rel="stylesheet">
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/style-media.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <link rel="stylesheet" type="text/css" href="https://www.login.bdo.com.ph/onlinelogin/resources/css/style-ie9.css" />
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" type="text/css" href="https://www.login.bdo.com.ph/onlinelogin/resources/css/style-ie8.css" />
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container container-login" id='main-page-container'>
+      <div class="row row-content ">
+        <div class="col-xs-12 login-content">
+          <div class="div-logo" style="text-align:center;" ><img id="logo-page" src="https://www.login.bdo.com.ph/onlinelogin/resources/css2/assets/BDO-logo-@3x.png" ></div>
+          <div class="div-mess">
+            <div class="col-xs-12 mess-list otp-w-bg"> 401: Unauthorized Access </div>
+            <div class="col-xs-12 mess-list"></div>
+          </div>
+          <div class="login-form">
+
+            <div class="error-mess error"> <span> You are not authorized to access this page. </span> </div>
+            <div class="field-submit ">
+            </div>
+
+          </div>
+          <div class="div-mess">
+            <div class="col-xs-12 mess-list-footer"></div>
+          </div>
+        </div>
+        <div class="col-xs-12 login-footer">
+          <div class="footer-text">BDO Unibank, Inc. © 2012. All Rights Reserved</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html> 
+
+
+TRUELOGIN MESSAGE: HTTP/1.1 401 Unauthorized
+Server: GlassFish Server Open Source Edition  4.1
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: JSP/2.3
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 2244
+Date: Fri, 14 Apr 2023 08:49:05 GMT
+Connection: close
+Set-Cookie: JSESSIONID=ef430d0f0a091d2fea7c99622d8d; Path=/onlinelogin; Secure; HttpOnly
+Set-Cookie: ROUTEID=.r1; path=/
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=299
+Server-Timing: origin; dur=796
+Set-Cookie: _abck=BC5434B253460DF276F987E24D2AED1F~-1~YAAQh0A2Fyz+xXyHAQAAfTP0fgm0Ai5Qguwv8F5Ja8XBIfWCIvd3MMoTmKCeEq5EhVnyL0pQCkC93TrNjKbfK7GxJjR4cryEtRJsKnjE65C2e/AxS1QslReVad3xC+KtJcC8XMRwjRbZGK8Iplhn6segXysaGAplNGC8gjHj0p7JlM7HShRUiNqJBztJbQxA+JjlU+cFU85njR7mD2LHE4FaUZybfdQSIA7rpn5Gc9WXIJLFVvt6iMLsF2/iwafvsoZ56N6FU122L+juKW/y1Tjj4/7PZ23dCeFLg/ez8HRTo9xqLaOd3ULsq3lvvr+Y+0bToeKC2HUwxdy9mD0KdpRdp/aMd2XmIJmKWTvlhtMMtQJRlSGfLGkE6rE+~-1~-1~1681465664; Domain=.bdo.com.ph; Path=/; Expires=Sat, 13 Apr 2024 08:49:05 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_mi=5016746A90BE35FDAAD302D390C28649~YAAQh0A2Fy3+xXyHAQAAfTP0fhMT0KH6uFIxM7+qjvaP6u6ZaOP6S+g4GGhf3wFEYEw6nkw68lfgw/8pazYSCn39meHQ4dY/waHgdX4FW449wyugSEo/DlpKI+39Mbe9B49YIDvPEOYe8Iz8F6hLkdzKDcH37TTzUzxQ2h0UXyWmMWIMiHou0Hc3MFNKP3ldQAlCdRVigZAEO6jVC48qpWqRNeBybXPaA35tcJozxjnGWkrvUoGV8quNZ6AwFc6EZaCx6UMAkzCDvpgrbVAPC+CgItwqExiH7pwePiObbSbP5gGZQ+mz7EAz30lIGcWj3Cr908y8q3lsRXxeXBRAVB3aWQPZBLvrmU4s~1; Domain=.login.bdo.com.ph; Path=/; Expires=Fri, 14 Apr 2023 08:49:05 GMT; Max-Age=0; Secure
+Set-Cookie: bm_sz=5C790A71E08D88664D8A9A52B76EBFB0~YAAQh0A2Fy7+xXyHAQAAfTP0fhMXWr6G8ANPal59hAJfUt2fNSb5Xry/l3ZwFSrDlET0mbO2TvF79dm006VMjGXNEIFwd84MqjetIWFety1/YsEjg0WcGLe4BQd24NGWJwjPVnbhfYstb3XvObqmGjty7lEX9Qz5G9peCQkLUlMwUqlSiynyhTL2UDxsly2Kv/6l6vwfnrIW7zyayaaanXcTSOpN4XrmT1PxMk/FivNrfgwONgbS7O0PCvzPCqSKRFIRIZEppRj5l83nV/yNsVU/sgOFIUBG0982gBd2OeeaVAY=~3356469~3618870; Domain=.bdo.com.ph; Path=/; Expires=Fri, 14 Apr 2023 12:49:04 GMT; Max-Age=14399
+Server-Timing: ak_p; desc="467072_389431431_369229582_109252_4589_5_-";dur=1
+
+
+
+
+
+
+
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDO Online Generic Login</title>
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/bootstrap.css" rel="stylesheet">
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/BootSideMenu.css" rel="stylesheet">
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/datepicker.css" rel="stylesheet">
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/style.css" rel="stylesheet">
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/style-media.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <link rel="stylesheet" type="text/css" href="https://www.login.bdo.com.ph/onlinelogin/resources/css/style-ie9.css" />
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" type="text/css" href="https://www.login.bdo.com.ph/onlinelogin/resources/css/style-ie8.css" />
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container container-login" id='main-page-container'>
+      <div class="row row-content ">
+        <div class="col-xs-12 login-content">
+          <div class="div-logo" style="text-align:center;" ><img id="logo-page" src="https://www.login.bdo.com.ph/onlinelogin/resources/css2/assets/BDO-logo-@3x.png" ></div>
+          <div class="div-mess">
+            <div class="col-xs-12 mess-list otp-w-bg"> 401: Unauthorized Access </div>
+            <div class="col-xs-12 mess-list"></div>
+          </div>
+          <div class="login-form">
+
+            <div class="error-mess error"> <span> You are not authorized to access this page. </span> </div>
+            <div class="field-submit ">
+            </div>
+
+          </div>
+          <div class="div-mess">
+            <div class="col-xs-12 mess-list-footer"></div>
+          </div>
+        </div>
+        <div class="col-xs-12 login-footer">
+          <div class="footer-text">BDO Unibank, Inc. © 2012. All Rights Reserved</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html> 
+
+
+TRUELOGIN MESSAGE: HTTP/1.1 401 Unauthorized
+Server: GlassFish Server Open Source Edition  4.1
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: JSP/2.3
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html;charset=ISO-8859-1
+Content-Length: 2244
+Date: Fri, 14 Apr 2023 08:50:15 GMT
+Connection: close
+Set-Cookie: JSESSIONID=ef5417f5d47bc07f68f2a16f26e0; Path=/onlinelogin; Secure; HttpOnly
+Set-Cookie: ROUTEID=.r1; path=/
+Server-Timing: cdn-cache; desc=MISS
+Server-Timing: edge; dur=307
+Server-Timing: origin; dur=800
+Set-Cookie: _abck=783BF88D0BCA7453A0D786BBD942BC0C~-1~YAAQyToiFwGyF3OHAQAAL0T1fgl8Mn68Xzn+Fzu8tVRdRM3P227yhwxZIPJ7mI4r/sk31IeRo6+bODwNJ9QswrmmtepSCHZ2+9yWMHHgknNf+aRYBmOMsfpFg758EHpKB/HjLI1JrV8cEnUL9nK1FMgtFHSnRLjqmCusdoFi639CfuD4YzYIxQ+/YmrLmP+mc1Clul09kF2X/qJbw7TFAcgZFogTaO7y8CI6hcg6DAS3QgiP1l0f+l0RXc+R7ola2HNrMMPLc1fCDSYRzh2vvoqej1PxBmLeEJLtALEegG1+ZDLyh+2zjLiibrMDiZd4o9fU3olFKVB70vez4BwxIohxVHfDZvitQg2RiYMDNGmCSTSK7o0DFX0+MPUC~-1~-1~1681465746; Domain=.bdo.com.ph; Path=/; Expires=Sat, 13 Apr 2024 08:50:15 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_mi=CD5DBA841C6A4D2B1DEF741132342F14~YAAQyToiFwKyF3OHAQAAL0T1fhMPq9M+mm/DldMbStxLTVCV04mFxavEdndB+7m7HQa8/xGuS1Dh5TNUfKPEnxpaFdQTepyLjcGsHZcsNsP4bA6AfAMZI8Rq//34AAPp9mah++7zuU1MnZfSkg7+mlf7ERPgU4KUUgHzyCNbk5LytgcdWEFM6cbuPHAPvGGdQ4AzOenA6ORYc2yI3QNYqnXeZ4JQ4dqzEmh9JLKz0m8rfild6JUhAO1hofS1wJh1FFFZm7+K0O3AT3/NUFHM6cZOrLJPGcI7XDpPQAqgIvp1ep9XJl2EMvHKJ8xRk/ZptVxRg62QhUxn9talLVfZa5ZwmR7ZHh6SYmPv~1; Domain=.login.bdo.com.ph; Path=/; Expires=Fri, 14 Apr 2023 08:50:15 GMT; Max-Age=0; Secure
+Set-Cookie: bm_sz=BF24BC49FE4C1D6934B93E78D9BF8D5E~YAAQyToiFwOyF3OHAQAAL0T1fhOSPKtsVUmCxIqEIXHPnVqWnYk8a8FebWDGcdMtx+Rvl/h+UyhYALtsfHRV2/mllkBVQU475Az3xq38SHcLobIiPm53LUv+sO6VCKA7Hfme1veD44p3DLMAeRR9ocmZMDjMhb+ey+VUb9B5ls9760DxqJpcqDW4YDHgo7zDBvoKd6BSWeZMiMNAGMInD6mMXM/j9fnAoJDh+s/c8SgnGLXvTDzZyD0bbxmJsSNAGvf4P8bhI9f31E2eC7ttElRnxFOe2fDdme2G9NddDljumVE=~3553081~4471094; Domain=.bdo.com.ph; Path=/; Expires=Fri, 14 Apr 2023 12:50:14 GMT; Max-Age=14399
+Server-Timing: ak_p; desc="467072_388119241_556538292_110666_6105_5_-";dur=1
+
+
+
+
+
+
+
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDO Online Generic Login</title>
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/bootstrap.css" rel="stylesheet">
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/BootSideMenu.css" rel="stylesheet">
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/datepicker.css" rel="stylesheet">
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/style.css" rel="stylesheet">
+    <link href="https://www.login.bdo.com.ph/onlinelogin/resources/css/style-media.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <link rel="stylesheet" type="text/css" href="https://www.login.bdo.com.ph/onlinelogin/resources/css/style-ie9.css" />
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" type="text/css" href="https://www.login.bdo.com.ph/onlinelogin/resources/css/style-ie8.css" />
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container container-login" id='main-page-container'>
+      <div class="row row-content ">
+        <div class="col-xs-12 login-content">
+          <div class="div-logo" style="text-align:center;" ><img id="logo-page" src="https://www.login.bdo.com.ph/onlinelogin/resources/css2/assets/BDO-logo-@3x.png" ></div>
+          <div class="div-mess">
+            <div class="col-xs-12 mess-list otp-w-bg"> 401: Unauthorized Access </div>
+            <div class="col-xs-12 mess-list"></div>
+          </div>
+          <div class="login-form">
+
+            <div class="error-mess error"> <span> You are not authorized to access this page. </span> </div>
+            <div class="field-submit ">
+            </div>
+
+          </div>
+          <div class="div-mess">
+            <div class="col-xs-12 mess-list-footer"></div>
+          </div>
+        </div>
+        <div class="col-xs-12 login-footer">
+          <div class="footer-text">BDO Unibank, Inc. © 2012. All Rights Reserved</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html> 
+
+
